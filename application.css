@@ -20,6 +20,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     width: 400px;
+    text-align: center; /* Center the content */
 }
 
 h1 {
@@ -57,9 +58,36 @@ button:hover {
     display: none;
 }
 
+/* Styling for the confirmation message */
 #confirmationMessage {
-    text-align: center;
-    color: #28a745;
+    text-align: left; /* Align the text to the left */
+    color: black; /* Set the color of the message and details to black */
     font-size: 1.2em;
     margin-top: 20px;
+}
+
+#confirmationMessage div {
+    margin-bottom: 10px; /* Add some spacing between details */
+    color: black; /* Ensure that all text remains black */
+}
+
+/* Resume link specific styling */
+#downloadResume {
+    color: #007bff; /* Keep the resume link blue */
+    text-decoration: underline; /* Keep the underline for the link */
+    cursor: pointer;
+}
+
+#homeButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#homeButton:hover {
+    background-color: #0056b3;
 }
